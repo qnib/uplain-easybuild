@@ -23,4 +23,4 @@ RUN alias module='modulecmd bash'
 RUN eb --version
 USER root
 RUN apt-get install -y lmod
-RUN apt-get install -y gcc libssl-dev
+RUN apt-get install -y gcc libssl-dev unzip
